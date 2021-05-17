@@ -1,0 +1,21 @@
+{
+    "name": "phasic-custom-theme",
+    "displayName": "phasic-custom-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PhasicDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PhasicDark-color-theme.json"
+            }
+        ]
+    }
+}
